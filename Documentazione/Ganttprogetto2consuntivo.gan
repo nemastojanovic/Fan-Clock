@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-11-13" view-index="0" gantt-divider-location="481" resource-divider-location="300" version="2.8.5" locale="it">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-10-30" view-index="0" gantt-divider-location="739" resource-divider-location="300" version="2.8.5" locale="it">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Nome" width="313" order="0"/>
-        <field id="tpd4" name="Data d'inizio" width="83" order="1"/>
-        <field id="tpd5" name="Data di fine" width="81" order="2"/>
+        <field id="tpd3" name="Nome" width="395" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="173" order="1"/>
+        <field id="tpd5" name="Data di fine" width="167" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nome" width="210" order="0"/>
@@ -19,6 +19,22 @@
             <overriden-day-types/>
             <days/>
         </day-types>
+        <date year="2018" month="2" date="13" type="HOLIDAY"><![CDATA[Vacanza il 13/02/18 0.00]]></date>
+        <date year="2018" month="2" date="12" type="HOLIDAY"><![CDATA[Vacanza il 12/02/18 0.00]]></date>
+        <date year="2018" month="2" date="14" type="HOLIDAY"><![CDATA[Vacanza il 14/02/18 0.00]]></date>
+        <date year="2018" month="2" date="15" type="HOLIDAY"><![CDATA[Vacanza il 15/02/18 0.00]]></date>
+        <date year="2018" month="2" date="16" type="HOLIDAY"><![CDATA[Vacanza il 16/02/18 0.00]]></date>
+        <date year="2017" month="12" date="8" type="HOLIDAY"><![CDATA[Vacanza il 08/12/17 0.00]]></date>
+        <date year="2017" month="12" date="25" type="HOLIDAY"><![CDATA[Vacanza il 25/12/17 0.00]]></date>
+        <date year="2018" month="1" date="5" type="HOLIDAY"><![CDATA[Vacanza il 05/01/18 0.00]]></date>
+        <date year="2018" month="1" date="4" type="HOLIDAY"><![CDATA[Vacanza il 04/01/18 0.00]]></date>
+        <date year="2018" month="1" date="3" type="HOLIDAY"><![CDATA[Vacanza il 03/01/18 0.00]]></date>
+        <date year="2018" month="1" date="2" type="HOLIDAY"><![CDATA[Vacanza il 02/01/18 0.00]]></date>
+        <date year="2018" month="1" date="1" type="HOLIDAY"><![CDATA[Vacanza il 01/01/18 0.00]]></date>
+        <date year="2017" month="12" date="29" type="HOLIDAY"><![CDATA[Vacanza il 29/12/17 0.00]]></date>
+        <date year="2017" month="12" date="28" type="HOLIDAY"><![CDATA[Vacanza il 28/12/17 0.00]]></date>
+        <date year="2017" month="12" date="27" type="HOLIDAY"><![CDATA[Vacanza il 27/12/17 0.00]]></date>
+        <date year="2017" month="12" date="26" type="HOLIDAY"><![CDATA[Vacanza il 26/12/17 0.00]]></date>
     </calendars>
     <tasks empty-milestones="true">
         <taskproperties>
@@ -43,21 +59,21 @@
             <task id="30" name="Gantt" color="#8cb6ce" meeting="false" start="2017-11-10" duration="6" complete="0" expand="true"/>
             <task id="31" name="Design della struttura" color="#8cb6ce" meeting="false" start="2017-11-17" duration="6" complete="0" expand="true"/>
         </task>
-        <task id="32" name="Implementazione" color="#8cb6ce" meeting="false" start="2017-11-24" duration="41" complete="0" expand="true">
+        <task id="32" name="Implementazione" color="#8cb6ce" meeting="false" start="2017-11-24" duration="60" complete="0" expand="true">
             <task id="34" name="Creazione supporto con motore del prototipo" color="#8cb6ce" meeting="false" start="2017-11-24" duration="16" complete="0" expand="true"/>
             <task id="57" name="Creazione striscia di LED" color="#8cb6ce" meeting="false" start="2017-11-24" duration="1" complete="0" expand="true"/>
-            <task id="58" name="Assemblaggio delle due parti" color="#8cb6ce" meeting="false" start="2018-01-12" duration="6" complete="0" expand="true"/>
-            <task id="36" name="Codice" color="#8cb6ce" meeting="false" start="2018-01-12" duration="6" complete="0" expand="true"/>
-            <task id="38" name="Passaggio a prodotto finale" color="#8cb6ce" meeting="false" start="2018-01-19" duration="1" complete="0" expand="true"/>
+            <task id="58" name="Assemblaggio delle due parti" color="#8cb6ce" meeting="false" start="2018-01-12" duration="31" complete="0" expand="true"/>
+            <task id="36" name="Codice" color="#8cb6ce" meeting="false" start="2018-01-12" duration="36" complete="0" expand="true"/>
+            <task id="38" name="Passaggio a prodotto finale" color="#8cb6ce" meeting="false" start="2018-01-19" duration="31" complete="0" expand="true"/>
         </task>
-        <task id="69" name="Test" meeting="false" start="2017-11-24" duration="41" complete="0" expand="true">
+        <task id="69" name="Test" meeting="false" start="2017-11-24" duration="60" complete="0" expand="true">
             <task id="70" name="Test motore" color="#8cb6ce" meeting="false" start="2017-12-01" duration="11" complete="0" expand="true"/>
             <task id="71" name="Test dei LED" color="#8cb6ce" meeting="false" start="2017-11-24" duration="1" complete="0" expand="true"/>
-            <task id="73" name="Test del orologio completo" color="#8cb6ce" meeting="false" start="2018-01-12" duration="6" complete="0" expand="true"/>
+            <task id="73" name="Test del orologio completo" color="#8cb6ce" meeting="false" start="2018-01-12" duration="36" complete="0" expand="true"/>
         </task>
-        <task id="17" name="Consegna Progetto" color="#8cb6ce" meeting="true" start="2018-01-19" duration="0" complete="0" expand="true"/>
-        <task id="55" name="presentazione" color="#8cb6ce" meeting="false" start="2018-01-12" duration="6" complete="0" expand="true"/>
-        <task id="13" name="Documentazione" color="#8cb6ce" meeting="false" start="2017-11-10" duration="51" complete="0" expand="true"/>
+        <task id="17" name="Consegna Progetto" color="#8cb6ce" meeting="true" start="2018-03-09" duration="0" complete="0" expand="true"/>
+        <task id="55" name="presentazione" color="#8cb6ce" meeting="false" start="2018-01-12" duration="36" complete="0" expand="true"/>
+        <task id="13" name="Documentazione" color="#8cb6ce" meeting="false" start="2017-11-10" duration="70" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
